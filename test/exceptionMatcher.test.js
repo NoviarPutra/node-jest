@@ -1,4 +1,4 @@
-import { Exception, throwException } from "../src/exception";
+import { throwException } from "../src/exception";
 
 test("test exception matcher with jest", () => {
   expect(() => throwException()).toThrow();
